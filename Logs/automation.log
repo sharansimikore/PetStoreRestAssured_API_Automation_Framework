@@ -88,3 +88,164 @@
 2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
 2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
 2026-05-20 22:49:29 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:18:39 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:18:39 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:18:51 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:18:51 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:18:52 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:18:52 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:18:52 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:18:52 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:18:53 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049001 ****************
+2026-05-20 23:21:44 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:21:44 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:21:53 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:21:53 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:21:55 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:21:55 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:21:56 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:21:56 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:21:56 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:21:56 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:21:57 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:21:57 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:21:57 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049002 ****************
+2026-05-20 23:21:57 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:21:58 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:21:58 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:21:58 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:24:29 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:24:30 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:24:36 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:24:36 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:24:37 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:24:37 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:24:38 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:24:38 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:24:38 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:24:38 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049002 ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:24:39 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:24:40 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:25:40 [main] INFO  api.test.UserTest - Running tests on environment [staging] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:25:40 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:25:46 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:25:47 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:25:47 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:25:47 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:25:47 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:25:47 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:25:48 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:25:48 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:25:48 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:25:48 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:25:49 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049002 ****************
+2026-05-20 23:25:49 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:25:49 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:25:49 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:25:50 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:26:37 [main] INFO  api.test.UserTest - Running tests on environment [staging] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:26:38 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:26:44 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:26:44 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:26:45 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:26:45 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:26:46 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:26:46 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:26:46 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:26:46 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:26:47 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:26:47 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:26:47 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049003 ****************
+2026-05-20 23:26:47 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:26:48 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:26:48 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:26:49 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:27:43 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:27:44 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:27:49 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:27:49 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:27:50 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:27:50 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:27:51 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:27:51 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:27:52 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:27:52 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049003 ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:27:53 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:27:54 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:37:58 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:37:59 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:38:06 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:38:06 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:38:07 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:38:07 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:38:08 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:38:08 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:38:09 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:38:09 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:38:09 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:38:09 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:38:10 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049011 ****************
+2026-05-20 23:38:10 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:38:10 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:38:10 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:38:11 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:39:06 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:39:07 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:39:14 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:39:15 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:39:16 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:39:16 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:39:17 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:39:17 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:39:18 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:39:18 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:39:18 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:39:18 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:39:19 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049011 ****************
+2026-05-20 23:39:19 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:39:19 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:39:19 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:39:20 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:43:44 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:43:45 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:43:51 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:43:51 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:43:52 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:43:52 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:43:52 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:43:53 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:43:53 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:43:53 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:43:53 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:43:53 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:43:54 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049013 ****************
+2026-05-20 23:43:54 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:43:54 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:43:55 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 23:44:49 [main] INFO  api.test.UserTest - Running tests on environment [qa] with base URI [https://petstore.swagger.io/v2]
+2026-05-20 23:44:49 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 23:44:56 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 23:44:56 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 23:44:57 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 23:44:57 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 23:44:58 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 23:44:58 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 23:44:59 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 23:44:59 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 23:44:59 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 23:44:59 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 23:45:00 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=7942069188050049014 ****************
+2026-05-20 23:45:00 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 23:45:01 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 23:45:01 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 23:45:01 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************

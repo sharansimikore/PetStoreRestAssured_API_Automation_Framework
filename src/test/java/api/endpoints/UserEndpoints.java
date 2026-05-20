@@ -1,72 +1,40 @@
 package api.endpoints;
 
-import static io.restassured.RestAssured.given;
-
+import api.client.ApiClient;
 import api.payload.User;
 import io.restassured.response.Response;
 
+public final class UserEndpoints {
 
-public class UserEndpoints {
+    private UserEndpoints() {
+    }
 
-	
-	public static Response CreateUser(User payload) {
-		
-		Response response=
-		given()
-			.accept("application/json")
-			.contentType("application/json")
-			.body(payload)
-		
-		.when()
-			.post(Routes.post_url);
-		
-	return response;	
-		
-	}
-	
-	
-	public static Response GetUser(String userName) {
-		
-		Response response=
-		given()
-			.accept("application/json")
-			.pathParam("username", userName)
-		
-		.when()
-		
-			.get(Routes.get_url);
-		
-		return response;
-		
-	}
+    public static Response createUser(User payload) {
+        return ApiClient.request()
+                .body(payload)
+                .when()
+                .post(Routes.USER);
+    }
 
-	
-	public static Response UpdateUser(String userName, User payload) {
-	
-		Response response=
-		given()
-			.accept("application/json")
-			.contentType("application/json")
-			.pathParam("username", userName)
-			.body(payload)
-		
-		.when()
-			.put(Routes.update_url);
-		
-	return response;	
-}
+    public static Response getUser(String username) {
+        return ApiClient.request()
+                .pathParam("username", username)
+                .when()
+                .get(Routes.USER_BY_USERNAME);
+    }
 
-	public static Response DeleteUser(String userName) {
-	
-		Response response=
-				given()
-				.pathParam("username", userName)
-				
-				.when()
-				
-					.delete(Routes.delete_url);
-				
-				return response;
-}	
-	
+    public static Response updateUser(String username, User payload) {
+        return ApiClient.request()
+                .pathParam("username", username)
+                .body(payload)
+                .when()
+                .put(Routes.USER_BY_USERNAME);
+    }
+
+    public static Response deleteUser(String username) {
+        return ApiClient.request()
+                .pathParam("username", username)
+                .when()
+                .delete(Routes.USER_BY_USERNAME);
+    }
 }

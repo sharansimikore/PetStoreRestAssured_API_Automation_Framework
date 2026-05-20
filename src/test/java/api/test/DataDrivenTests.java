@@ -1,19 +1,23 @@
 package api.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import api.base.BaseApiTest;
 import api.endpoints.UserEndpoints;
 import api.payload.User;
+import api.utilities.DataProviders;
 import api.utilities.UserResponseValidator;
-import api.utilities.dataProviders;
 import io.restassured.response.Response;
 
-public class DataDrivenTests {
+public class DataDrivenTests extends BaseApiTest {
 
-    @Test(priority=1,
-          dataProvider="data",
-          dataProviderClass=dataProviders.class)
+    private static final String GROUP_REGRESSION = "regression";
 
+    @Test(priority = 1,
+            groups = {GROUP_REGRESSION},
+            dataProvider = "data",
+            dataProviderClass = DataProviders.class)
     public void testPostUser(
             String userid,
             String username,
@@ -21,14 +25,12 @@ public class DataDrivenTests {
             String lname,
             String email,
             String password,
-            String ph)
-    {
+            String ph) {
+
+        initLogger();
 
         User userPayload = new User();
-        
-        
         userPayload.setId((int) Double.parseDouble(userid));
-//        userPayload.setId(Integer.parseInt(userid));
         userPayload.setUsername(username);
         userPayload.setFirstName(fname);
         userPayload.setLastName(lname);
@@ -36,23 +38,25 @@ public class DataDrivenTests {
         userPayload.setPassword(password);
         userPayload.setPhone(ph);
 
-        Response response =
-                UserEndpoints.CreateUser(userPayload);
+        Response response = UserEndpoints.createUser(userPayload);
 
+        Assert.assertEquals(response.getStatusCode(), HTTP_OK,
+                "POST /user should return 200");
         UserResponseValidator.assertCreateUser(response);
     }
 
+    @Test(priority = 2,
+            groups = {GROUP_REGRESSION},
+            dataProvider = "userName",
+            dataProviderClass = DataProviders.class)
+    public void testDeleteUserByUsername(String username) {
 
-    @Test(priority=2,
-          dataProvider="userName",
-          dataProviderClass=dataProviders.class)
+        initLogger();
 
-    public void testDeleteData(String username)
-    {
+        Response response = UserEndpoints.deleteUser(username);
 
-        Response response =
-                UserEndpoints.DeleteUser(username);
-
+        Assert.assertEquals(response.getStatusCode(), HTTP_OK,
+                "DELETE /user/{username} should return 200");
         UserResponseValidator.assertDeleteUser(response);
     }
 }

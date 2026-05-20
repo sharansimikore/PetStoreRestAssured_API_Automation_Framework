@@ -14,6 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <rest-assured.version>5.4.0</rest-assured.version>
         <log4j.version>2.22.1</log4j.version>
+        <env>qa</env>
+        <suiteXmlFile>testng-regression.xml</suiteXmlFile>
     </properties>
 
     <dependencies>
@@ -140,16 +142,50 @@
                 <version>3.1.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>false</testFailureIgnore>
-                    <reportsDirectory>
-                        ${project.build.directory}/surefire-reports
-                    </reportsDirectory>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <systemPropertyVariables>
+                        <env>${env}</env>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
 
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>qa</id>
+            <properties>
+                <env>qa</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>staging</id>
+            <properties>
+                <env>staging</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>mock-server</id>
+            <properties>
+                <env>mock-server</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>smoke</id>
+            <properties>
+                <suiteXmlFile>testng-smoke.xml</suiteXmlFile>
+            </properties>
+        </profile>
+        <profile>
+            <id>store</id>
+            <properties>
+                <suiteXmlFile>testng-store.xml</suiteXmlFile>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>

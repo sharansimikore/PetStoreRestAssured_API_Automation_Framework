@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<!-- Default suite: full regression. Use -DsuiteXmlFile=testng-smoke.xml for smoke. -->
-<suite name="PetStore API Suite" parallel="false" verbose="1">
+<suite name="Regression Suite" parallel="false" verbose="1">
 
     <listeners>
         <listener class-name="api.utilities.Listeners"/>

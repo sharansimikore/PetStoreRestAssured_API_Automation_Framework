@@ -1,1 +1,31 @@
-/target/
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Test outputs & reports
+test-output/
+Reports/
+Logs/
+logs/
+surefire-reports/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local / sensitive test data (keep sample in repo under src/test/resources/testdata/)
+testData/*.xlsx
+!src/test/resources/testdata/
