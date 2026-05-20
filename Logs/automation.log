@@ -26,3 +26,65 @@
 2026-05-20 00:14:15 [main] INFO  api.test.UserTest - ********** User Updated****************
 2026-05-20 00:14:15 [main] INFO  api.test.UserTest - ********** Deleting User ****************
 2026-05-20 00:14:15 [main] INFO  api.test.UserTest - **********  User Deleted****************
+2026-05-20 22:23:12 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 22:23:17 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 22:23:17 [main] INFO  api.test.UserTest - ********** Get  User ****************
+2026-05-20 22:23:19 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 22:23:19 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 22:23:19 [main] INFO  api.test.UserTest - ********** User Updated****************
+2026-05-20 22:23:19 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 22:23:20 [main] INFO  api.test.UserTest - **********  User Deleted****************
+2026-05-20 22:25:44 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 22:25:51 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 22:25:51 [main] INFO  api.test.UserTest - ********** Get  User ****************
+2026-05-20 22:25:52 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 22:25:52 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 22:25:52 [main] INFO  api.test.UserTest - ********** User Updated****************
+2026-05-20 22:25:52 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 22:25:53 [main] INFO  api.test.UserTest - **********  User Deleted****************
+2026-05-20 22:29:04 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 22:29:11 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 22:29:11 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 22:29:11 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 22:29:11 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 22:29:12 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 22:29:12 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 22:29:12 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 22:34:08 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 22:34:08 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 22:34:08 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 22:34:08 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 22:34:08 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 22:34:09 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 22:34:09 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 22:34:09 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 22:45:15 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 22:45:21 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 22:45:21 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 22:45:23 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=580952197 ****************
+2026-05-20 22:45:23 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 22:45:23 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 22:46:06 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 22:46:11 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 22:46:11 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 22:46:12 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=6512462235810439302 ****************
+2026-05-20 22:46:12 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 22:46:13 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 22:46:13 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 22:46:13 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************
+2026-05-20 22:49:26 [main] INFO  api.test.UserTest - ********** Creating User ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** User Created ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** Get User ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** Got User ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** Update User ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** User Updated ****************
+2026-05-20 22:49:27 [main] INFO  api.test.UserTest - ********** Deleting User ****************
+2026-05-20 22:49:28 [main] INFO  api.test.UserTest - ********** User Deleted ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Get Store Inventory ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Store Inventory Retrieved ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Place Store Order ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Store Order Placed, orderId=6512462235810439302 ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Get Store Order By ID ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Store Order Retrieved ****************
+2026-05-20 22:49:28 [main] INFO  api.test.StoreTest - ********** Delete Store Order ****************
+2026-05-20 22:49:29 [main] INFO  api.test.StoreTest - ********** Store Order Deleted ****************

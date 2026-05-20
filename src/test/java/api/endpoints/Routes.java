@@ -20,9 +20,12 @@ public class Routes {
 	public static String delete_url="https://petstore.swagger.io/v2/user/{username}";
 
 // Store module
-	
-	//	Here you can create Store module URLs
-	
+
+	public static String store_inventory_url = base_url + "/store/inventory";
+	public static String store_post_order_url = base_url + "/store/order";
+	public static String store_get_order_url = base_url + "/store/order/{orderId}";
+	public static String store_delete_order_url = base_url + "/store/order/{orderId}";
+
 // Pet module
 	
 		//	Here you can create Store module URLs

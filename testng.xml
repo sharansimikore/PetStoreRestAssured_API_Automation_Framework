@@ -12,6 +12,7 @@
     <classes>
       <class name="api.test.DataDrivenTests"/>
       <class name="api.test.UserTest"/>
+      <class name="api.test.StoreTest"/>
     </classes>
   </test> <!-- petSuite -->
 </suite> <!-- petSuite -->

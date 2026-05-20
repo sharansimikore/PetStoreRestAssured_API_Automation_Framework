@@ -1,10 +1,10 @@
 package api.test;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import api.endpoints.UserEndpoints;
 import api.payload.User;
+import api.utilities.UserResponseValidator;
 import api.utilities.dataProviders;
 import io.restassured.response.Response;
 
@@ -39,7 +39,7 @@ public class DataDrivenTests {
         Response response =
                 UserEndpoints.CreateUser(userPayload);
 
-        Assert.assertEquals(response.getStatusCode(), 200);
+        UserResponseValidator.assertCreateUser(response);
     }
 
 
@@ -53,6 +53,6 @@ public class DataDrivenTests {
         Response response =
                 UserEndpoints.DeleteUser(username);
 
-        Assert.assertEquals(response.getStatusCode(), 200);
+        UserResponseValidator.assertDeleteUser(response);
     }
 }

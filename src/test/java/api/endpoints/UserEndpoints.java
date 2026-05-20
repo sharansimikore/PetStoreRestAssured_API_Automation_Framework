@@ -1,17 +1,9 @@
 package api.endpoints;
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-import java.util.HashMap;
-
-import org.json.JSONObject;
-import org.testng.ITestContext;
-import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
 
 import api.payload.User;
 import io.restassured.response.Response;
-
-import static io.restassured.matcher.RestAssuredMatchers.*;
 
 
 public class UserEndpoints {
@@ -37,7 +29,8 @@ public class UserEndpoints {
 		
 		Response response=
 		given()
-		.pathParam("username", userName)
+			.accept("application/json")
+			.pathParam("username", userName)
 		
 		.when()
 		
